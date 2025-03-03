@@ -1,6 +1,6 @@
 {
   "name": "@ptcgp-app/common",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Richard Solomou",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -12,8 +12,15 @@
     }
   },
   "description": "Common types and utilities for PTCGP.App",
-  "files": ["dist"],
-  "keywords": ["ptcgp", "pokemon", "tcg", "types"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "ptcgp",
+    "pokemon",
+    "tcg",
+    "types"
+  ],
   "license": "AGPL-3.0-or-later",
   "publishConfig": {
     "access": "public"
