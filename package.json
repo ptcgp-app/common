@@ -1,6 +1,6 @@
 {
   "name": "@ptcgp-app/common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Richard Solomou",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
