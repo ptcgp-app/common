@@ -1,6 +1,6 @@
 {
   "name": "@ptcgp-app/common",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "author": "Richard Solomou",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -25,9 +25,7 @@
     "dev": "bun build:bundle --watch",
     "format": "bun biome check --write --unsafe .",
     "lint": "tsc --noEmit && bun biome check",
-    "changeset": "changeset",
-    "version": "changeset version",
-    "release": "bun run build && changeset publish"
+    "release": "release-it"
   },
   "type": "module",
   "types": "./dist/index.d.ts",
@@ -36,11 +34,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@changesets/cli": "^2.28.1",
     "@types/bun": "^1.2.4",
+    "release-it": "^18.1.2",
     "typescript": "^5.8.2"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
   }
 }
