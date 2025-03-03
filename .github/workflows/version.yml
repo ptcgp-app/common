@@ -33,5 +33,9 @@ jobs:
           title: "chore: version packages"
           commit: "chore: version packages"
           publish: bun run build
+          setupGitUser: true
+          version: |
+            bun run format
+            bun changeset version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 

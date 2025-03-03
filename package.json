@@ -12,15 +12,8 @@
     }
   },
   "description": "Common types and utilities for PTCGP.App",
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "ptcgp",
-    "pokemon",
-    "tcg",
-    "types"
-  ],
+  "files": ["dist"],
+  "keywords": ["ptcgp", "pokemon", "tcg", "types"],
   "license": "AGPL-3.0-or-later",
   "publishConfig": {
     "access": "public"
