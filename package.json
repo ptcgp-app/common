@@ -19,9 +19,10 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun build:clean && bun build:bundle",
+    "build": "bun build:clean && bun build:bundle && bun build:types",
     "build:clean": "rm -rf dist",
     "build:bundle": "bun build ./src/index.ts --outdir=dist --format=esm",
+    "build:types": "tsc --emitDeclarationOnly",
     "dev": "bun build:bundle --watch",
     "format": "bun biome check --write --unsafe .",
     "lint": "tsc --noEmit && bun biome check",
