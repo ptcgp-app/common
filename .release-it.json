@@ -12,7 +12,6 @@
     "publish": true
   },
   "hooks": {
-    "before:init": ["git pull", "bun run lint", "bun run format"],
-    "after:bump": "bun run build"
+    "after:bump": ["bun run format"]
   }
 }
