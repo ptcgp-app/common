@@ -63,6 +63,8 @@ export type Deck = Static<typeof DeckSchema>;
 export const PackAnalysisSchema = Type.Object({
   pack: Type.String(),
   new_card_probability: Type.Number(),
+  mission_card_probability: Type.Number(),
+  deck_card_probability: Type.Number(),
   total_cards: Type.Number(),
   missing_cards: Type.Number(),
   missing_by_rarity: Type.Record(Type.String(), Type.Number()),
